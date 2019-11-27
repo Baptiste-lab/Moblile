@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body  background-color="coral">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">New Developer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                 
+                </div>
+              </nav>
+              <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <h3>Shoe</h3>
+                        <p>You can never take too much care over the choice of your shoes. .</p>
+                        
+                      </div>
+                      <div class="col-sm-4">
+                        <h3>Clothes</h3>
+                        <p>"Style is a way to say who you are without having to speak."</p>
+                        
+                      </div>
+                      <div class="col-sm-4">
+                        <h3>Bags</h3>        
+                        <p>"A handbag is only one item to be worn with a complete outfit. Add a peony pink leather handbag to a charcoal gray suit, for instance, and the impact is chic with a touch of wit."</p>
+                        
+                    </div>
+                  </div>
+
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+
+</body>
+</html>
