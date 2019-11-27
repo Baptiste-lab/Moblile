@@ -28,7 +28,7 @@ SECRET_KEY = 'whcyrfjoegm@xqm__w09f9dl#@&a7m^)p==qs1!w+$6_i@2cjb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['batiste-cs.herokuapp.com']
 
 
 # Application definition
